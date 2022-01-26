@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.container {
+    width: 700px;
+    height: 450px;
+    background-color: antiquewhite;
+    border: lightgray solid 2px;
+}
+.banner {
+    height: 125px;
+    background-color: cyan;
+    min-height: 100px;
+    display: flex;
+}
+.icon {
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+.location {
+    font-size: 20px;
+    display: flex;
+}
+h1 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+.ping {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 20px;
+    height: 30px;
+}
+p {
+    margin-left: 20px;
+}
+.link {
+    margin-left:20px ;
+    width: 20px;
+    height: 20px;
+}
+a {
+    text-decoration: underline;
+}
